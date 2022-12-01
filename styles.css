@@ -1,0 +1,21 @@
+.mainPage{
+    
+}
+
+.mainPage::after{
+    content: "";
+    background-image:url("/~seij3660/images/main-background.jpg") ;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+}
+
+.mainPageh1{
+    border: 10px solid black;
+    display: flex;
+    justify-content: center;
+}
